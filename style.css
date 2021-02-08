@@ -7,6 +7,10 @@ header {
     color: rgba(37, 38, 48, 0.856);
 }
 
+h1, h2 {
+    font-weight: bolder;
+}
+
 .card{
     margin: 40px;
     height: 80%;
@@ -18,19 +22,18 @@ header {
 }
 
 form{
-    /* align-items: center; */
+    
     align-content: center;
     padding: 20px;
-    border:black 5px;
+    border:rgb(114, 113, 113) 5px;
     border-top: solid;
     border-left: none;
     border-bottom: solid;
-
-    
 }
 
 input{
-    border: black dashed;
-    
+    border: rgb(180, 179, 179);
+    border-top: dashed;
+    border-bottom: dashed;
     padding-left: 20px;
 }
