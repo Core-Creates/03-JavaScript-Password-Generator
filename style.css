@@ -1,4 +1,15 @@
+* {
+    font-family:sans-serif;
+}
 header {
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    color: rgba(37, 38, 48, 0.856);
+}
+
+.card{
+    margin: 40px;
+    height: 80%;
+    color: black;
+    
 }
