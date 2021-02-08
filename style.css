@@ -10,6 +10,27 @@ header {
 .card{
     margin: 40px;
     height: 80%;
+    padding: 40px;
     color: black;
+    border-radius: 10px;
+
+
+}
+
+form{
+    /* align-items: center; */
+    align-content: center;
+    padding: 20px;
+    border:black 5px;
+    border-top: solid;
+    border-left: none;
+    border-bottom: solid;
+
     
+}
+
+input{
+    border: black dashed;
+    
+    padding-left: 20px;
 }
