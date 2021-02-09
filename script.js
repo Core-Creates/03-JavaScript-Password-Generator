@@ -11,9 +11,12 @@ for(i = 0; i < 121; i++)
     
 }
 
+
 //Save that var userLength
-var input1 = document.getElementById("input1").value.toUpperCase();
-  var item = userLengthArray.find((item) => item[input1])
+var input = document.getElementById("lengthOfPassword").value.toUpperCase();
+console.log(input);
+
+  var item = userLengthArray.find((item) => item[input])
 
 if(item)
 {
