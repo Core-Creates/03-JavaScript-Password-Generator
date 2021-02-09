@@ -20,6 +20,7 @@
 
 
 <!----------------------- Beginning of Body ------------------------>
+
 <body>
     <!--Beginning of Header ----->
     <header>
@@ -32,21 +33,36 @@
 
         <h2>Generate a Password</h2>
 
+        <div class="form-popup" id="popoutForm">
+            <form action="/action_page.php" class="form-container">
+                <h1>Login</h1>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit" class="btn">Login</button>
+                <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+
         <form>
             <input type="text" placeholder="Your Secure Password">
         </form>
 
         <div class="row">
-            
+
             <div class="col-lg-4">
                 <!-- purposely empty -->
             </div>
             <div class="col-lg-4">
-                <button type="button" > Generate Password </button>
+                <button type="button"> Generate Password </button>
             </div>
         </div>
 
-        
+
     </main>
     <!-- Ending of Main Section ----------------------------->
 
